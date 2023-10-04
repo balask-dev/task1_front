@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color:  #b2e0ee;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+
+.maincontainer {
+  max-width: 50%;
+  flex:flex-wrap;
+  margin: 30px;
+  font-size: 12px;
+  padding: 20px;
+  background-color: #b2e0ee;
+   border-radius: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 40px;
+  overflow: hidden;
+  font-size: 12px;
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #edeeb2;
+  color: rgb(15, 15, 14);
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+select, input[type="text"] {
+  padding: 10px;
+  border: 1px solid #b2e0ee;
+  border-radius: 40px;
+  background-color: #edeeb2;
+}
+
+.buttontable {
+  background-color: #b2e0ee;
+  color: black;
+  font-weight: 70px;
+  padding: 10px 20px;
+  border: none;
+   margin: 15px;
+  font-size: medium;
+   cursor: pointer;
+  
+}
+
+.buttontable:hover {
+  background-color: #555;
+}
+
+.mainStatistics {
+  max-width: 50%;
+  margin:  0 auto;
+  padding: 20px;
+  background-color: #edeeb2;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.Statisticsh1 {
+  background-color: #edeeb2;
+  color: black;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px 5px 0 0;
+}
+
+label, select {
+  display: block;
+  margin: 20px 0;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.statistics {
+   justify-content: space-around;
+ }
+
+.statistic-box {
+  background-color: #edeeb2;
+  flex-wrap: wrap;
+  color:black;
+  border: 1px solid #b94343;
+  border-radius: 40px;
+  font-size: 12px;
+  margin:5px;
+  flex: 1;
+}
+
+.statistic-box {
+  background-color: #edeeb2;
+  
+}
+
+.statisticsh2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.chart-title {
+  background-color: #edeeb2;
+  color: #1a1717;
+  font-size: 25px;
+
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.chart-container{
+  max-width: 80%;
+  margin:  30px;
+  padding: 20px;
+  background-color: #edeeb2;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+}
